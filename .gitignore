@@ -3,6 +3,20 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# CMake build folders
+build/
+out/
+
+# Visual Studio project files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Precompiled headers (if not used)
+pch.h
+pch.cpp
+
 # User-specific files
 *.rsuser
 *.suo
